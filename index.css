@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: hsl(217, 54%, 11%);
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr {
+    background-color: hsl(215, 32%, 27%);
+}
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+section {
+    width: 400px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+section .wrap {
+    margin: 25px;
+}
+section .image {
+    width: 350px;
+    height: 350px;
+    color: white;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.wrap .information h1 {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.wrap .information p {
+    color: #84a4d0;
+}
+.wrap .information .info {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.wrap .information .info .ethereum img {
+    width: 11px;
+    height: 18px;
+    vertical-align: bottom;
+}
+.wrap .information .info .ethereum span {
+    color: #53fff8;
+    margin-left: 5px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+.wrap .information .info .clock img {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+.wrap .information .info .clock span {
+    color: #84a4d0;
+    margin-left: 5px;
+    
+}
+.wrap .information .user {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+.wrap .information .user img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.wrap .information .user span {
+    color: #84a4d0;
+}
+.wrap .information .user span .white {
+    color: #fff;
+}
